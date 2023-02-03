@@ -5,10 +5,6 @@
 
   <br/>
 
-  <a href="https://twitter.com/braiscoin" target="_blank">
-    <img alt="Twitter: BraisCoin" src="https://badgen.net/twitter/follow/braiscoin?icon=twitter&label=follow%20on%20Twitter" />
-  </a>
-
 </p>
 
 > BRAISCOIN is an open source [blockchain protocol](https://braiscoin.org/braiscoin-protocol). <br/> 
