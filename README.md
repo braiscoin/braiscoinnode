@@ -6,7 +6,7 @@
   <br/>
 
   <a href="https://twitter.com/braiscoin" target="_blank">
-    <img alt="Twitter: Waves Tech" src="https://badgen.net/twitter/follow/braiscoin?icon=twitter&label=follow%20on%20Twitter" />
+    <img alt="Twitter: BraisCoin" src="https://badgen.net/twitter/follow/braiscoin?icon=twitter&label=follow%20on%20Twitter" />
   </a>
 
 </p>
@@ -15,11 +15,6 @@
 You can use it to build your own decentralized applications. Waves provides full blockchain ecosystem including smart contracts language called RIDE.
 
 
-## ✨ Demo
-
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/1945126/78667964-88209480-78e2-11ea-9304-72178a6a5974.gif" alt="Waves Node Run Demo">
-</p>
 
 Waves node is a host connected to the blockchain network with the following functions:
 
@@ -170,20 +165,7 @@ For major changes, please open an issue first to discuss what you would like to 
 
 Please follow the [code of conduct](./CODE_OF_CONDUCT.md) during communication with the each other. 
 
-## ℹ️ Support (get help)
 
-Keep up with the latest news and articles, and find out all about events happening on the [Waves Protocol](https://braiscoin.org/).
-
-- [Telegram Dev Chat](https://t.me/waves_ride_dapps_dev)
-- [Waves Blog](https://medium.com/wavesprotocol)
-
-## ⛓ Links
-
-- [Documentation](https://docs.braiscoin.org/)
-- Blockchain clients for Mainnet: [Waves Exchange](https://waves.exchange/), [Waves FX](https://github.com/wavesfx), [SIGN app](https://www.sign-web.app/)
-- Blockchain clients for Testnet: [Waves Exchange](https://testnet.waves.exchange/)
-- Blockchain Explorer: [Mainnet](https://wavesexplorer.com/), [Testnet](https://testnet.wavesexplorer.com/), [Stagenet](https://stagenet.wavesexplorer.com/) 
-- [Ride Online IDE](https://braiscoin-ide.com/)
 
 ## 📝 Licence
 
