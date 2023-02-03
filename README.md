@@ -1,33 +1,17 @@
-<h1 align="center">🔷 Waves Node</h1>
+<h1 align="center"> BRAISCOIN Node</h1>
 
 <p align="center">
-  <a href="https://github.com/wavesplatform/Waves/actions" target="_blank">
-    <img alt="Checks status" src="https://badgen.net/github/checks/wavesplatform/waves?cache=600"  />
-  </a>
-  <a href="https://github.com/wavesplatform/Waves/releases" target="_blank">
-    <img alt="Downloads" src="https://badgen.net/github/assets-dl/wavesplatform/waves?color=blue" />
-  </a>
-  <a href="https://hub.docker.com/r/wavesplatform/wavesnode" target="_blank">
-    <img alt="Docker pulls" src="https://badgen.net/docker/pulls/wavesplatform/wavesnode?icon=docker" />
-  </a>
+  
 
   <br/>
 
-  <a href="https://twitter.com/wavesprotocol" target="_blank">
-    <img alt="Twitter: Waves Tech" src="https://badgen.net/twitter/follow/wavesprotocol?icon=twitter&label=follow%20on%20Twitter" />
+  <a href="https://twitter.com/braiscoin" target="_blank">
+    <img alt="Twitter: Waves Tech" src="https://badgen.net/twitter/follow/braiscoin?icon=twitter&label=follow%20on%20Twitter" />
   </a>
-  <a href="https://medium.com/wavesprotocol" target="_blank">
-    <img alt="Medium: Waves Tech" src="https://badgen.net/runkit/msmolyakov/get-medium-followers?icon=medium&cache=86400" />
-  </a>
-  <a href="https://t.me/waves_ride_dapps_dev" target="_blank">
-    <img alt="Telegram" src="https://badgen.net/badge/icon/Waves%20Dev%20Jedi?icon=telegram&label=Telegram"/>
-  </a>
-  <a href="https://github.com/msmolyakov/awesome-waves" target="_blank">
-    <img alt="Awesome Waves" src="https://badgen.net/badge/icon/Awesome%20Waves?icon=awesome&label&color=pink" />
-  </a>
+
 </p>
 
-> Waves is an open source [blockchain protocol](https://waves.tech/waves-protocol). <br/> 
+> BRAISCOIN is an open source [blockchain protocol](https://braiscoin.org/braiscoin-protocol). <br/> 
 You can use it to build your own decentralized applications. Waves provides full blockchain ecosystem including smart contracts language called RIDE.
 
 
@@ -39,51 +23,51 @@ You can use it to build your own decentralized applications. Waves provides full
 
 Waves node is a host connected to the blockchain network with the following functions:
 
-- Processing and validation of [transactions](https://docs.waves.tech/en/blockchain/transaction/transaction-validation)
-- Generation and storage of [blocks](https://docs.waves.tech/en/blockchain/block/)
-- Network communication with [other nodes](https://docs.waves.tech/en/blockchain/blockchain/#node)
-- [REST API](https://docs.waves.tech/en/waves-node/node-api/)
-- [Extensions](https://docs.waves.tech/en/waves-node/extensions/) management
+- Processing and validation of [transactions](https://docs.braiscoin.org/en/blockchain/transaction/transaction-validation)
+- Generation and storage of [blocks](https://docs.braiscoin.org/en/blockchain/block/)
+- Network communication with [other nodes](https://docs.braiscoin.org/en/blockchain/blockchain/#node)
+- [REST API](https://docs.braiscoin.org/en/braiscoin-node/node-api/)
+- [Extensions](https://docs.braiscoin.org/en/braiscoin-node/extensions/) management
 
-Learn more about Waves Node in the [documentation](https://docs.waves.tech/en/waves-node/).
+Learn more about Waves Node in the [documentation](https://docs.braiscoin.org/en/braiscoin-node/).
 
 ## 🚀️ Getting started
 
 A quick introduction of the minimal setup you need to get a running node. 
 
 *Prerequisites:*
-- configuration file for a needed network from [here](https://github.com/wavesplatform/Waves/tree/HEAD/node)
-- `waves-all*.jar` file from [releases](https://github.com/wavesplatform/Waves/releases) 
+- configuration file for a needed network from [here](https://github.com/braiscoin/braiscoinnode/tree/HEAD/node)
+- `braiscoin-all*.jar` file from [releases](https://github.com/braiscoin/braiscoinnode/releases) 
 
 Linux systems:
 ```bash
 sudo apt-get update
 sudo apt-get install openjdk-8-jre
-java -jar node/target/waves-all*.jar path/to/config/waves-{network}.conf
+java -jar node/target/braiscoin-all*.jar path/to/config/braiscoin-{network}.conf
 ```
 
 Mac systems (assuming already installed homebrew):
 ```bash
 brew cask install adoptopenjdk/openjdk/adoptopenjdk8
-java -jar node/target/waves-all*.jar path/to/config/waves-{network}.conf
+java -jar node/target/braiscoin-all*.jar path/to/config/braiscoin-{network}.conf
 ```
 
 Windows systems (assuming already installed OpenJDK 8):
 ```bash
-java -jar node/target/waves-all*.jar path/to/config/waves-{network}.conf
+java -jar node/target/braiscoin-all*.jar path/to/config/braiscoin-{network}.conf
 ```
 
 Using docker, follow the [official image documentation](https://hub.docker.com/r/wavesplatform/wavesnode).
 
-> More details on how to install a node for different platforms you can [find in the documentation](https://docs.waves.tech/en/waves-node/how-to-install-a-node/how-to-install-a-node). 
+> More details on how to install a node for different platforms you can [find in the documentation](https://docs.braiscoin.org/en/braiscoin-node/how-to-install-a-node/how-to-install-a-node). 
 
 ## 🔧 Configuration
 
-The best starting point to understand available configuration parameters is [this article](https://docs.waves.tech/en/waves-node/node-configuration).
+The best starting point to understand available configuration parameters is [this article](https://docs.braiscoin.org/en/braiscoin-node/node-configuration).
 
 The easiest way to start playing around with configurations is to use default configuration files for different networks; they're available in [network-defaults.conf](./node/src/main/resources/network-defaults.conf).
 
-Logging configuration with all available levels and parameters is described [here](https://docs.waves.tech/en/waves-node/logging-configuration).
+Logging configuration with all available levels and parameters is described [here](https://docs.braiscoin.org/en/braiscoin-node/logging-configuration).
 
 ## 👨‍💻 Development
 
@@ -109,7 +93,7 @@ Please follow the SBT installation instructions depending on your platform ([Lin
 *2. Clone this repo*
 
 ```bash
-git clone https://github.com/wavesplatform/Waves.git
+git clone https://github.com/braiscoin/braiscoinnode.git
 cd Waves
 ```
 
@@ -188,18 +172,18 @@ Please follow the [code of conduct](./CODE_OF_CONDUCT.md) during communication w
 
 ## ℹ️ Support (get help)
 
-Keep up with the latest news and articles, and find out all about events happening on the [Waves Protocol](https://waves.tech/).
+Keep up with the latest news and articles, and find out all about events happening on the [Waves Protocol](https://braiscoin.org/).
 
 - [Telegram Dev Chat](https://t.me/waves_ride_dapps_dev)
 - [Waves Blog](https://medium.com/wavesprotocol)
 
 ## ⛓ Links
 
-- [Documentation](https://docs.waves.tech/)
+- [Documentation](https://docs.braiscoin.org/)
 - Blockchain clients for Mainnet: [Waves Exchange](https://waves.exchange/), [Waves FX](https://github.com/wavesfx), [SIGN app](https://www.sign-web.app/)
 - Blockchain clients for Testnet: [Waves Exchange](https://testnet.waves.exchange/)
 - Blockchain Explorer: [Mainnet](https://wavesexplorer.com/), [Testnet](https://testnet.wavesexplorer.com/), [Stagenet](https://stagenet.wavesexplorer.com/) 
-- [Ride Online IDE](https://waves-ide.com/)
+- [Ride Online IDE](https://braiscoin-ide.com/)
 
 ## 📝 Licence
 
